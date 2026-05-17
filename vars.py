@@ -6,4 +6,4 @@ BOT_TOKEN = os.environ.get("BOT_TOKEN", "8463395750:AAEZwDq7gVps8YZvfm0g6kLHftQI
 TOTAL_USER = os.environ.get('TOTAL_USERS', '8399557684').split(',')
 TOTAL_USERS = [int(user_id) for user_id in TOTAL_USER]  
 #WEBHOOK = True  # Don't change this
-#PORT = int(os.environ.get("PORT", 8080))  # Default to 8000 if not set
+#PORT = int(os.environ.get("PORT", 8080))  # Default to 10000 if not set
